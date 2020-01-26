@@ -1,6 +1,6 @@
 # Cerealize
 
-Streams data out of a WoW addon into the outside world via a thin strip of pixels at the bottom right corner of the screen.
+Streams data out of Classic WoW addon-space into the outside world via a thin strip of pixels at the bottom right corner of the screen.
 
 Currently it just subscribes to all events in the API and sends em over. Only tested on Linux.
 
