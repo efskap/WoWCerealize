@@ -1,12 +1,12 @@
 # Cerealize
 
-Streams data out of a WoW addon into the outside world via a thin strip of pixels at the bottom right corner of the screen.
+Streams data out of Classic WoW addon-space into the outside world via a thin strip of pixels at the bottom right corner of the screen.
 
-Currently it just subscribes to all events in the API and sends em over.
+Currently it just subscribes to all events in the API and sends em over. Only tested on Linux.
 
 ## Why?
 
-WoW addons normally can't communicate with external programs, besides SavedVariables that are written to disk upon logout, and for good reason. But I was curious if I could implement a protocol to send data outside strictly visually.
+WoW addons normally can't communicate with external programs, besides SavedVariables that are written to disk upon logout, and for good reason. But I was curious if I could implement a protocol to send data outside via pixel colours, without any nasty process hacking business.
 
 I don't believe I'm doing botting scum any favours, since they inject their garbage into the process anyway, (or call ReadProcessMemory?). Since this is a one way channel, controlling the character with emulated input is a whole other bag of worms anyway.
 
